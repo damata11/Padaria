@@ -44,8 +44,9 @@ body {
     justify-content: end;
     position: relative;
     position: fixed;
-    box-shadow: 0px 0px 10px 0px #ddd;
-    border-radius: 50%;
+    background: var(--cream);
+    box-shadow: 0px 0px 10px 0px #dddddd89;
+    border-radius: 100%;
     top: 85%;
     right: 20px;
     padding: 10px;
