@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pão Caseiro, Lda – Padaria artesanal tradicional na Marinha Grande desde 1985." />
+    <title>Pão Caseiro, Lda – Padaria Tradicional</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div id="loader">
+        <div class="loader-logo">Pão Caseiro</div>
+        <div class="loader-sub">Marinha Grande · Desde 1985</div>
+        <div class="loader-bar">
+            <div class="loader-bar-fill"></div>
+        </div>
+    </div>
+
+    <!-- MOBILE NAV -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="mobile-close" onclick="closeMobileNav()"><i class="fa fa-times"></i></button>
+        <a href="#sobre" onclick="closeMobileNav()">Sobre Nós</a>
+        <a href="#cardapio" onclick="closeMobileNav()">Cardápio</a>
+        <a href="#galeria" onclick="closeMobileNav()">Galeria</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">
+                    <div class="logo-emblem"><i class="fa-solid fa-wheat-awn"></i></div>
+                    <div>
+                        <div class="logo-name">Pão Caseiro</div>
+                        <div class="logo-sub">Lda · Marinha Grande</div>
+                    </div>
+                </a>
+
+                <nav>
+                    <a href="#sobre">Sobre Nós</a>
+                    <a href="#cardapio">Cardápio</a>
+                    <a href="#galeria">Galeria</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+
+                <div class="nav-cta">
+                   <!-- <a href="contacto.html" class="btn btn-outline" style="padding:.65rem 1.4rem;font-size:.78rem;">Contactar</a> -->
+                    <a href="https://wa.me/+351244569839" target="_blank" class="btn btn-dark" style="padding:.65rem 1.4rem;font-size:.78rem;"><i
+                            class="fa fa-phone"></i> Ligar</a>
+                    <button class="hamburger" onclick="openMobileNav()">
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-left">
+            <div class="hero-eyebrow"><span>Padaria Artesanal · Marinha Grande</span></div>
+            <h1 class="hero-title">O melhor pão<br><em>feito em casa</em></h1>
+            <p class="hero-desc">Desde 1985 que acordamos antes do sol para preparar pão artesanal com receitas
+                tradicionais portuguesas e ingredientes rigorosamente selecionados. Cada pão conta uma história de
+                dedicação.</p>
+            <div class="hero-buttons">
+                <a href="#cardapio" class="btn btn-dark"><i class="fa-solid fa-book-open"></i> Ver Cardápio</a>
+                <a href="contacto.html" class="btn btn-outline"><i class="fa-regular fa-map"></i> Como Chegar</a>
+            </div>
+            <div class="hero-stats">
+                <div>
+                    <div class="hero-stat-num">40+</div>
+                    <div class="hero-stat-lbl">Anos de Experiência</div>
+                </div>
+                <div>
+                    <div class="hero-stat-num">100%</div>
+                    <div class="hero-stat-lbl">Ingredientes Naturais</div>
+                </div>
+                <div>
+                    <div class="hero-stat-num">Diário</div>
+                    <div class="hero-stat-lbl">Pão Fresco</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-right">
+            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663503738437/KRuYcEpKxZt3V9G5fM6uLN/hero-bread-GxbCaybo7eDv9uw2f6B2dY.webp"
+                alt="Pão Artesanal Fresco" />
+            <div class="hero-badge">Feito com Amor<br>desde 1985</div>
+        </div>
+    </section>
+
+    <!-- STRIP -->
+    <div class="strip">
+        <div class="strip-inner" id="stripInner"></div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="about container" id="sobre">
+        <div class="about-imgs reveal">
+            <img class="about-img-main"
+                src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAH-1h5M58pbrdmkd-hhqZ1YNkURkh0av35sR1JLgW9gV1DXZeaLf3l-_hlZ1D6Z279-JqI-7-QWX9nG6D2ll5JG4FMzoVWmm2b_c6wPiqBe2smIVXyJTvh0QInFr9CZeEXcfPEAnA=s1024-v1"
+                alt="Interior da Padaria" />
+            <img class="about-img-secondary"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663503738437/xcPxtGaQkNPvtAIg.png"
+                alt="Cafetaria" />
+        </div>
+        <div class="about-text reveal">
+            <div class="section-label">A Nossa História</div>
+            <h2 class="section-title">Tradição que se<br><em>sente no sabor</em></h2>
+            <p class="about-body">A Pão Caseiro, Lda nasceu em 1985 na Marinha Grande com uma missão simples: trazer o
+                verdadeiro pão caseiro às mesas portuguesas. Três gerações depois, continuamos a usar as mesmas
+                receitas, os mesmos fornos a lenha e a mesma paixão pela arte da panificação.</p>
+            <div class="about-features">
+                <div class="about-feature"><i class="fa-solid fa-seedling"></i><span>Ingredientes 100% naturais e
+                        locais</span></div>
+                <div class="about-feature"><i class="fa-solid fa-fire-flame-curved"></i><span>Forno a lenha
+                        tradicional</span></div>
+                <div class="about-feature"><i class="fa-solid fa-clock"></i><span>Produção diária às primeiras
+                        horas</span></div>
+                <div class="about-feature"><i class="fa-solid fa-award"></i><span>Receitas ancestrais portuguesas</span>
+                </div>
+            </div>
+            <a href="contacto.html" class="btn btn-dark"><i class="fa-solid fa-location-dot"></i> Visitar-nos</a>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu-section" id="cardapio">
+        <div class="container">
+            <div class="menu-header">
+                <div>
+                    <div class="section-label">O que Preparamos</div>
+                    <h2 class="section-title">Nosso <em>Cardápio</em></h2>
+                </div>
+                <div class="menu-tabs">
+                    <button class="menu-tab active" onclick="switchTab('padaria',this)">Padaria</button>
+                    <button class="menu-tab" onclick="switchTab('pastelaria',this)">Pastelaria</button>
+                    <button class="menu-tab" onclick="switchTab('cafetaria',this)">Cafetaria</button>
+                </div>
+            </div>
+
+            <div id="padaria" class="menu-grid">
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Pão Caseiro Tradicional</div>
+                        <div class="menu-item-desc">Farinha de trigo integral, receita ancestral</div>
+                    </div>
+                    <div class="menu-item-price">1,20€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Broa de Milho</div>
+                        <div class="menu-item-desc">Milho moído, fermentação longa natural</div>
+                    </div>
+                    <div class="menu-item-price">1,80€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Pão com Chouriço</div>
+                        <div class="menu-item-desc">Massa artesanal recheada com chouriço fumado</div>
+                    </div>
+                    <div class="menu-item-price">2,50€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Pão de Alho</div>
+                        <div class="menu-item-desc">Crocante, com alho fresco e ervas aromáticas</div>
+                    </div>
+                    <div class="menu-item-price">1,60€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Pão de Sementes</div>
+                        <div class="menu-item-desc">Sementes de girassol, sésamo e linhaça</div>
+                    </div>
+                    <div class="menu-item-price">1,90€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Baguete Rústica</div>
+                        <div class="menu-item-desc">Massa de fermentação lenta, crocante por fora</div>
+                    </div>
+                    <div class="menu-item-price">0,85€</div>
+                </div>
+            </div>
+
+            <div id="pastelaria" class="menu-grid" style="display:none">
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Arrufadas Caseiras</div>
+                        <div class="menu-item-desc">Especialidade da casa com canela e açúcar</div>
+                    </div>
+                    <div class="menu-item-price">1,40€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Pastéis de Nata</div>
+                        <div class="menu-item-desc">Receita original, calda de canela e limão</div>
+                    </div>
+                    <div class="menu-item-price">1,20€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Bolachas Artesanais</div>
+                        <div class="menu-item-desc">Manteiga, baunilha e amêndoa — vários sabores</div>
+                    </div>
+                    <div class="menu-item-price">0,90€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Bolo de Aniversário</div>
+                        <div class="menu-item-desc">Personalizado, encomenda com 48h antecedência</div>
+                    </div>
+                    <div class="menu-item-price">Consultar</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Queijadas de Sintra</div>
+                        <div class="menu-item-desc">Receita tradicional com queijo fresco</div>
+                    </div>
+                    <div class="menu-item-price">1,30€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Torta de Laranja</div>
+                        <div class="menu-item-desc">Laranja do Algarve, textura suave e húmida</div>
+                    </div>
+                    <div class="menu-item-price">2,80€</div>
+                </div>
+            </div>
+
+            <div id="cafetaria" class="menu-grid" style="display:none">
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Pequeno-almoço Completo</div>
+                        <div class="menu-item-desc">Café + sumo natural + pão fresco com manteiga</div>
+                    </div>
+                    <div class="menu-item-price">4,50€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Café Expresso</div>
+                        <div class="menu-item-desc">Blend premium, torrefação artesanal</div>
+                    </div>
+                    <div class="menu-item-price">0,80€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Meia de Leite</div>
+                        <div class="menu-item-desc">Café com leite quente, espumado à mão</div>
+                    </div>
+                    <div class="menu-item-price">1,10€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Sumo de Laranja Natural</div>
+                        <div class="menu-item-desc">Espremido na hora, sem adicionados</div>
+                    </div>
+                    <div class="menu-item-price">1,80€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Tosta Mista</div>
+                        <div class="menu-item-desc">Pão caseiro, queijo e fiambre premium</div>
+                    </div>
+                    <div class="menu-item-price">2,20€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="menu-item-name">Galão</div>
+                        <div class="menu-item-desc">Café com leite espumante, servido em copo</div>
+                    </div>
+                    <div class="menu-item-price">1,30€</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="galeria">
+        <div class="container">
+            <div class="gallery-header reveal">
+                <div class="section-label" style="justify-content:center;">As Nossas Criações</div>
+                <h2 class="section-title" style="text-align:center;">Galeria <em>de Sabores</em></h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img
+                        src="https://d2xsxph8kpxj0f.cloudfront.net/310519663503738437/KRuYcEpKxZt3V9G5fM6uLN/hero-bread-GxbCaybo7eDv9uw2f6B2dY.webp"
+                        alt="Pão Artesanal" /></div>
+                <div class="gallery-item"><img
+                        src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwsMVVIwjOgp8BhTXAiDzepaEXKJKvSho63JDLzMmFZkvzqJS1hNqwN6o-MNoEMjyJh-IHPfO3rp2ZQi3iAAFbh3-kfalBfreqw871pg2t7wqee5S8Tmo4eiLrjUJPpDCJJpy9=w224-h298-k-no"
+                        alt="Pastelaria" /></div>
+                <div class="gallery-item"><img
+                        src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEj85ytFB2qwVhr0L-uBXaPhrzq2m3DUEWjwLx-si8S3WIuOPstN9ziFjFKtaWHLv4KIDxnSLgH-3pHzrIl9acgLMR5DMuOKuvW6Kux3bHqJ6jShxWcnCuJ1vH7iG_t13NJBB5Q=s442-k-no"
+                        alt="Cafetaria" /></div>
+                <div class="gallery-item"><img
+                        src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNO7IoyGv48X6iOKSv22YzY4g4zW2qG_FK7DVjU4kPwNGmqxa3Q8w0CcnACz6r5LPeQzsku8MsfpSdRCEVJBB5cHdAXxUgYJTxLJHdd4L1Y-npEv7us9iL78aYqvrdZzdisz1I-Q=s1024-v1"
+                        alt="Interior" /></div>
+                <div class="gallery-item"><img
+                        src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHsfoOlpTTPM5VI6VYYPit2Ydn3YNRg8iE8GLJDsk58NIyARsx_BrlJeQD7322m7rXTIw3PhJVPSMjTyrQADGfxlIO_ef_JbQ9q4JGIB7wyLk__dhqwVL4OqvtrBPk7l4tSy452DA=w397-h298-k-no"
+                        alt="Bolos" /></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials-header reveal">
+                <div class="section-label" style="justify-content:center;">O Que Dizem</div>
+                <h2 class="section-title" style="text-align:center;">Os Nossos <em>Clientes</em></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <p class="testimonial-text">O melhor pão que já comi na minha vida! Venho todos os dias de manhã
+                        buscar pão fresco. A qualidade é incomparável — sabor autêntico como o da minha avó fazia.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar"><i class="fa fa-user"></i></div>
+                        <div>
+                            <div class="testimonial-name">Maria João S.</div>
+                            <div class="testimonial-stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <p class="testimonial-text">Padaria de referência na Marinha Grande. A broa de milho e as arrufadas
+                        caseiras são extraordinárias. Atendimento caloroso, como antigamente!</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar"><i class="fa fa-user"></i></div>
+                        <div>
+                            <div class="testimonial-name">António F.</div>
+                            <div class="testimonial-stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <p class="testimonial-text">Encomendei um bolo de aniversário personalizado e ficou perfeito! A
+                        atenção ao detalhe e a qualidade dos ingredientes são notórias. Recomendo vivamente.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar"><i class="fa fa-user"></i></div>
+                        <div>
+                            <div class="testimonial-name">Carla M.</div>
+                            <div class="testimonial-stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star-half-stroke"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BAND -->
+    <section class="cta-band">
+        <div class="container cta-band-inner">
+            <h2>Venha <em>provar</em> a diferença</h2>
+            <p>Abertos todos os dias — porque o pão fresco não espera.</p>
+            <div class="cta-band-btns">
+                <a href="/contacto.html" class="btn btn-gold"><i class="fa fa-phone"></i> Contactar </a>
+                <a href="https://www.google.com/maps/search/Pao+Caseiro+Marinha+Grande" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.5)"><i
+                        class="fa-regular fa-map"></i> Ver Localização</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="sub-contato">
+        <a href="https://wa.me/+351244569839" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-emblem" style="width:40px;height:40px;font-size:1.1rem;"><i
+                                class="fa-solid fa-wheat-awn"></i></div>
+                        <div>
+                            <div class="logo-name">Pão Caseiro</div>
+                            <div class="logo-sub">Lda · Marinha Grande</div>
+                        </div>
+                    </div>
+                    <p>Padaria artesanal tradicional desde 1985. Pão fresco todos os dias com ingredientes naturais e
+                        receitas ancestrais portuguesas.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.google.com/maps/search/Pao+Caseiro+Marinha+Grande" target="_blank"><i
+                                class="fab fa-google"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#cardapio">Cardápio</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Horário</h4>
+                    <ul>
+                        <li style="color:rgba(255,255,255,.4);font-size:.85rem;margin-bottom:.7rem;">Seg – Sex<br><span
+                                style="color:var(--gold)">08:30 – 20:00</span></li>
+                        <li style="color:rgba(255,255,255,.4);font-size:.85rem;margin-bottom:.7rem;">Sábado<br><span
+                                style="color:var(--gold)">07:30 – 20:00</span></li>
+                        <li style="color:rgba(255,255,255,.4);font-size:.85rem;">Domingo<br><span
+                                style="color:var(--gold)">08:00 – 13:00</span></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <div class="contact-item"><i class="fa fa-location-dot"></i><span>Rua da Covina, 4<br>2430-288
+                            Marinha Grande</span></div>
+                    <div class="contact-item"><i class="fa fa-phone"></i><a href="tel:+351244569839">+351 244 569
+                            839</a></div>
+                    <div class="contact-item"><i class="fa fa-clock"></i><span>Aberto hoje até às 20:00</span></div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>© 2026 Pão Caseiro, Lda. Todos os direitos reservados.</span>
+                <span>Feito com <i class="fa fa-heart" style="color:var(--gold)"></i> pela tradição portuguesa</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Loader
+        window.addEventListener('load', () => {
+            setTimeout(() => document.getElementById('loader').classList.add('hidden'), 1600);
+        });
+
+        // Header scroll
+        window.addEventListener('scroll', () => {
+            document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Mobile nav
+        function openMobileNav() { document.getElementById('mobileNav').classList.add('open'); }
+        function closeMobileNav() { document.getElementById('mobileNav').classList.remove('open'); }
+
+        // Menu tabs
+        function switchTab(tab, btn) {
+            ['padaria', 'pastelaria', 'cafetaria'].forEach(t => {
+                document.getElementById(t).style.display = t === tab ? 'grid' : 'none';
+            });
+            document.querySelectorAll('.menu-tab').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+
+        // Strip marquee content
+        const items = [
+            '<i class="fa-solid fa-wheat-awn"></i> Pão Artesanal',
+            '<i class="fa-solid fa-star"></i> Fabrico Diário',
+            '<i class="fa-solid fa-leaf"></i> Ingredientes Naturais',
+            '<i class="fa-solid fa-fire-flame-curved"></i> Forno a Lenha',
+            '<i class="fa-solid fa-heart"></i> Desde 1985',
+            '<i class="fa-solid fa-mug-hot"></i> Cafetaria Acolhedora',
+            '<i class="fa-solid fa-cake-candles"></i> Pastelaria Artesanal',
+            '<i class="fa-solid fa-location-dot"></i> Marinha Grande',
+        ];
+        const strip = document.getElementById('stripInner');
+        const full = [...items, ...items].map(i => `<span class="strip-item">${i}</span>`).join('');
+        strip.innerHTML = full;
+
+        // Reveal on scroll
+        const reveals = document.querySelectorAll('.reveal');
+        const obs = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+        }, { threshold: .15 });
+        reveals.forEach(r => obs.observe(r));
+    </script>
+</body>
+
+</html>

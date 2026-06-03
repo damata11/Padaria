@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto – Pão Caseiro, Lda</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles/contacto.css" />
+  <style>
+      :root {
+        --cream:    #FAF5EC;
+        --cream2:   #F3EAD8;
+        --brown:    #3B1F0E;
+        --brown-md: #7A3E1A;
+        --brown-lt: #C17A3C;
+        --gold:     #D4A855;
+        --gold-lt:  #F0CF89;
+        --dark:     #1A0F08;
+        --grey:     #6B5F53;
+        --white:    #FFFFFF;
+        --ff-display: 'Cormorant Garamond', serif;
+        --ff-body:    'DM Sans', sans-serif;
+      }
+
+  </style>
+</head>
+<body>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" id="mobileNav">
+    <button class="mobile-close" onclick="closeMobileNav()"><i class="fa fa-times"></i></button>
+    <a href="index.html#sobre" onclick="closeMobileNav()">Sobre Nós</a>
+    <a href="index.html#cardapio" onclick="closeMobileNav()">Cardápio</a>
+    <a href="index.html#galeria" onclick="closeMobileNav()">Galeria</a>
+    <a href="contacto.html" onclick="closeMobileNav()">Contacto</a>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <div class="logo-emblem"><i class="fa-solid fa-wheat-awn"></i></div>
+          <div>
+            <div class="logo-name">Pão Caseiro</div>
+            <div class="logo-sub">Lda · Marinha Grande</div>
+          </div>
+        </a>
+        <nav>
+          <a href="index.html#sobre">Sobre Nós</a>
+          <a href="index.html#cardapio">Cardápio</a>
+          <a href="index.html#galeria">Galeria</a>
+          <a href="contacto.html" class="active">Contacto</a>
+        </nav>
+        <div class="nav-cta">
+          <a href="https://wa.me/+351244569839" class="btn btn-dark" style="padding:.65rem 1.4rem;font-size:.78rem;"><i class="fa fa-phone"></i> Ligar</a>
+          <button class="hamburger" onclick="openMobileNav()"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="container page-hero-inner">
+      <div class="page-hero-label">Encontre-nos</div>
+      <h1>Fale <em>Connosco</em></h1>
+      <p>Estamos aqui para responder a todas as suas questões e encomendar o seu pão preferido.</p>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- LEFT: Contact Info -->
+        <div class="contact-info">
+          <div class="contact-info-header">
+            <h2>Venha <em>visitar-nos</em></h2>
+            <p>Estamos na Marinha Grande há mais de 40 anos. Venha conhecer-nos pessoalmente ou entre em contacto.</p>
+          </div>
+
+          <div class="info-divider"></div>
+
+          <div class="info-block">
+            <div class="info-item">
+              <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="info-content">
+                <div class="info-label">Morada</div>
+                <div class="info-value">Rua da Covina, 4<br>2430-288 Marinha Grande<br>Portugal</div>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="info-content">
+                <div class="info-label">Telefone</div>
+                <div class="info-value"><a href="tel:+351244569839">+351 244 569 839</a></div>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="info-content">
+                <div class="info-label">Email</div>
+                <div class="info-value"><a href="mailto:geral@paocaseiro.pt">geral@paocaseiro.pt</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-divider"></div>
+
+          <div class="info-item" style="align-items:flex-start;gap:1rem;">
+            <div class="info-icon" style="margin-top:.2rem;"><i class="fa-solid fa-clock"></i></div>
+            <div class="info-content" style="width:100%;">
+              <div class="info-label">Horário de Funcionamento</div>
+              <div class="hours-grid" style="margin-top:.8rem;">
+                <div class="hours-row"><div class="hours-day">Segunda – Sexta</div><div class="hours-time">08:30 – 20:00</div></div>
+                <div class="hours-row"><div class="hours-day">Sábado</div><div class="hours-time">07:30 – 20:00</div></div>
+                <div class="hours-row"><div class="hours-day">Domingo</div><div class="hours-time">08:00 – 13:00</div></div>
+                <div class="hours-row"><div class="hours-day">Feriados</div><div class="hours-time">08:00 – 12:00</div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-divider"></div>
+
+          <div>
+            <div class="info-label" style="color:rgba(255,255,255,.4);margin-bottom:1rem;">Siga-nos</div>
+            <div class="social-row">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.google.com/maps/search/Pao+Caseiro+Marinha+Grande" target="_blank" class="social-link"><i class="fab fa-google"></i></a>
+              <a href="https://wa.me/351244569839" class="social-link"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Form + Map -->
+        <div class="contact-right">
+          <div class="contact-form-section">
+            <div class="form-header">
+              <h3>Envie-nos uma Mensagem</h3>
+              <p>Responderemos em menos de 24 horas. Para encomendas urgentes, ligue diretamente.</p>
+            </div>
+
+            <form id="contactForm" onsubmit="handleSubmit(event)">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="nome">Nome Completo *</label>
+                  <input type="text" id="nome" name="nome" placeholder="O seu nome" required />
+                </div>
+                <div class="form-group">
+                  <label for="telefone">Telefone</label>
+                  <input type="tel" id="telefone" name="telefone" placeholder="+351 9XX XXX XXX" />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" placeholder="email@exemplo.pt" required />
+                </div>
+                <div class="form-group">
+                  <label for="assunto">Assunto</label>
+                  <select id="assunto" name="assunto">
+                    <option value="">Selecionar assunto...</option>
+                    <option value="encomenda">Encomenda Especial</option>
+                    <option value="info">Informações Gerais</option>
+                    <option value="bolo">Bolo Personalizado</option>
+                    <option value="catering">Catering / Evento</option>
+                    <option value="outro">Outro</option>
+                  </select>
+                </div>
+                <div class="form-group full">
+                  <label for="mensagem">Mensagem *</label>
+                  <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem aqui..." required></textarea>
+                </div>
+              </div>
+
+              <div class="form-submit">
+                <div class="form-note"><i class="fa fa-lock"></i> Os seus dados estão protegidos</div>
+                <button type="submit" class="btn btn-dark"><i class="fa-solid fa-paper-plane"></i> Enviar Mensagem</button>
+              </div>
+            </form>
+
+            <div class="form-success" id="formSuccess">
+              <i class="fa fa-circle-check"></i> <strong>Mensagem enviada com sucesso!</strong> Entraremos em contacto em breve.
+            </div>
+          </div>
+
+          <!-- MAP -->
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.12!2d-8.937!3d39.747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sRua%20da%20Covina%2C%204%2C%20Marinha%20Grande!5e0!3m2!1spt-PT!2spt!4v1234567890"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Localização Pão Caseiro">
+            </iframe>
+            <a href="https://www.google.com/maps/search/Rua+da+Covina+4+Marinha+Grande" target="_blank" class="map-overlay-btn">
+              <i class="fa-solid fa-diamond-turn-right"></i> Abrir no Google Maps
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK INFO BAND -->
+  <div class="quick-band">
+    <div class="container">
+      <div class="quick-grid">
+        <div class="quick-card">
+          <div class="quick-icon"><i class="fa-solid fa-car"></i></div>
+          <div class="quick-title">Estacionamento</div>
+          <div class="quick-text">Estacionamento gratuito disponível nas imediações da padaria.</div>
+        </div>
+        <div class="quick-card">
+          <div class="quick-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+          <div class="quick-title">Encomendas</div>
+          <div class="quick-text">Bolos e pães especiais com 24–48h de antecedência. Contacte-nos.</div>
+        </div>
+        <div class="quick-card">
+          <div class="quick-icon"><i class="fa-solid fa-truck"></i></div>
+          <div class="quick-title">Entregas</div>
+          <div class="quick-text">Entregas na Marinha Grande para encomendas acima de 15€. Consulte.</div>
+        </div>
+        <div class="quick-card">
+          <div class="quick-icon"><i class="fa-brands fa-whatsapp"></i></div>
+          <div class="quick-title">WhatsApp</div>
+          <div class="quick-text">Encomende rapidamente via WhatsApp. Respondemos em minutos.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">
+        <span>© 2026 Pão Caseiro, Lda. Todos os direitos reservados.</span>
+        <a href="index.html"><i class="fa fa-arrow-left"></i> Voltar ao início</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function openMobileNav()  { document.getElementById('mobileNav').classList.add('open'); }
+    function closeMobileNav() { document.getElementById('mobileNav').classList.remove('open'); }
+
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('button[type=submit]');
+      btn.innerHTML = '<i class="fa fa-spinner fa-spin"></i> A enviar...';
+      btn.disabled = true;
+      setTimeout(() => {
+        document.getElementById('formSuccess').style.display = 'block';
+        e.target.reset();
+        btn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Enviar Mensagem';
+        btn.disabled = false;
+        document.getElementById('formSuccess').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 1400);
+    }
+  </script>
+</body>
+</html>
