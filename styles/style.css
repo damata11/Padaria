@@ -64,7 +64,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 1.2rem;
 }
 
 .btn {
@@ -220,7 +220,7 @@ header.scrolled {
 
 .logo-sub {
     font-size: .65rem;
-    letter-spacing: .2em;
+    letter-spacing: .15em;
     text-transform: uppercase;
     color: var(--brown-lt);
 }
