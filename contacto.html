@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,27 +8,30 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="styles/contacto.css" />
+  <link rel="stylesheet" href="styles/style.css" />
   <style>
-      :root {
-        --cream:    #FAF5EC;
-        --cream2:   #F3EAD8;
-        --brown:    #3B1F0E;
-        --brown-md: #7A3E1A;
-        --brown-lt: #C17A3C;
-        --gold:     #D4A855;
-        --gold-lt:  #F0CF89;
-        --dark:     #1A0F08;
-        --grey:     #6B5F53;
-        --white:    #FFFFFF;
-        --ff-display: 'Cormorant Garamond', serif;
-        --ff-body:    'DM Sans', sans-serif;
-      }
-
+    :root {
+      --cream: #FAF5EC;
+      --cream2: #F3EAD8;
+      --brown: #3B1F0E;
+      --brown-md: #7A3E1A;
+      --brown-lt: #C17A3C;
+      --gold: #D4A855;
+      --gold-lt: #F0CF89;
+      --dark: #1A0F08;
+      --grey: #6B5F53;
+      --white: #FFFFFF;
+      --ff-display: 'Cormorant Garamond', serif;
+      --ff-body: 'DM Sans', sans-serif;
+    }
   </style>
 </head>
+
 <body>
 
   <!-- MOBILE NAV -->
@@ -57,7 +61,8 @@
           <a href="contacto.html" class="active">Contacto</a>
         </nav>
         <div class="nav-cta">
-          <a href="https://wa.me/+351244569839" class="btn btn-dark" style="padding:.65rem 1.4rem;font-size:.78rem;"><i class="fa fa-phone"></i> Ligar</a>
+          <a href="https://wa.me/+351244569839" class="btn btn-dark" style="padding:.65rem 1.4rem;font-size:.78rem;"><i
+              class="fa fa-phone"></i> Ligar</a>
           <button class="hamburger" onclick="openMobileNav()"><span></span><span></span><span></span></button>
         </div>
       </div>
@@ -120,10 +125,22 @@
             <div class="info-content" style="width:100%;">
               <div class="info-label">Horário de Funcionamento</div>
               <div class="hours-grid" style="margin-top:.8rem;">
-                <div class="hours-row"><div class="hours-day">Segunda – Sexta</div><div class="hours-time">08:30 – 20:00</div></div>
-                <div class="hours-row"><div class="hours-day">Sábado</div><div class="hours-time">07:30 – 20:00</div></div>
-                <div class="hours-row"><div class="hours-day">Domingo</div><div class="hours-time">08:00 – 13:00</div></div>
-                <div class="hours-row"><div class="hours-day">Feriados</div><div class="hours-time">08:00 – 12:00</div></div>
+                <div class="hours-row">
+                  <div class="hours-day">Segunda – Sexta</div>
+                  <div class="hours-time">08:30 – 20:00</div>
+                </div>
+                <div class="hours-row">
+                  <div class="hours-day">Sábado</div>
+                  <div class="hours-time">07:30 – 20:00</div>
+                </div>
+                <div class="hours-row">
+                  <div class="hours-day">Domingo</div>
+                  <div class="hours-time">08:00 – 13:00</div>
+                </div>
+                <div class="hours-row">
+                  <div class="hours-day">Feriados</div>
+                  <div class="hours-time">08:00 – 12:00</div>
+                </div>
               </div>
             </div>
           </div>
@@ -135,7 +152,8 @@
             <div class="social-row">
               <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
               <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.google.com/maps/search/Pao+Caseiro+Marinha+Grande" target="_blank" class="social-link"><i class="fab fa-google"></i></a>
+              <a href="https://www.google.com/maps/search/Pao+Caseiro+Marinha+Grande" target="_blank"
+                class="social-link"><i class="fab fa-google"></i></a>
               <a href="https://wa.me/351244569839" class="social-link"><i class="fab fa-whatsapp"></i></a>
             </div>
           </div>
@@ -176,18 +194,21 @@
                 </div>
                 <div class="form-group full">
                   <label for="mensagem">Mensagem *</label>
-                  <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem aqui..." required></textarea>
+                  <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem aqui..."
+                    required></textarea>
                 </div>
               </div>
 
               <div class="form-submit">
                 <div class="form-note"><i class="fa fa-lock"></i> Os seus dados estão protegidos</div>
-                <button type="submit" class="btn btn-dark"><i class="fa-solid fa-paper-plane"></i> Enviar Mensagem</button>
+                <button type="submit" class="btn btn-dark"><i class="fa-solid fa-paper-plane"></i> Enviar
+                  Mensagem</button>
               </div>
             </form>
 
             <div class="form-success" id="formSuccess">
-              <i class="fa fa-circle-check"></i> <strong>Mensagem enviada com sucesso!</strong> Entraremos em contacto em breve.
+              <i class="fa fa-circle-check"></i> <strong>Mensagem enviada com sucesso!</strong> Entraremos em contacto
+              em breve.
             </div>
           </div>
 
@@ -195,12 +216,11 @@
           <div class="map-wrapper">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.12!2d-8.937!3d39.747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sRua%20da%20Covina%2C%204%2C%20Marinha%20Grande!5e0!3m2!1spt-PT!2spt!4v1234567890"
-              allowfullscreen
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
               title="Localização Pão Caseiro">
             </iframe>
-            <a href="https://www.google.com/maps/search/Rua+da+Covina+4+Marinha+Grande" target="_blank" class="map-overlay-btn">
+            <a href="https://www.google.com/maps/search/Rua+da+Covina+4+Marinha+Grande" target="_blank"
+              class="map-overlay-btn">
               <i class="fa-solid fa-diamond-turn-right"></i> Abrir no Google Maps
             </a>
           </div>
@@ -241,15 +261,67 @@
   <!-- FOOTER -->
   <footer>
     <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-emblem" style="width:40px;height:40px;font-size:1.1rem;"><i
+                class="fa-solid fa-wheat-awn"></i></div>
+            <div>
+              <div class="logo-name">Pão Caseiro</div>
+              <div class="logo-sub">Lda · Marinha Grande</div>
+            </div>
+          </div>
+          <p>Padaria artesanal tradicional desde 1985. Pão fresco todos os dias com ingredientes naturais e
+            receitas ancestrais portuguesas.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.google.com/maps/search/Pao+Caseiro+Marinha+Grande" target="_blank"><i
+                class="fab fa-google"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Horário</h4>
+          <ul>
+            <li style="color:rgba(255,255,255,.4);font-size:.85rem;margin-bottom:.7rem;">Seg – Sex<br><span
+                style="color:var(--gold)">08:30 – 20:00</span></li>
+            <li style="color:rgba(255,255,255,.4);font-size:.85rem;margin-bottom:.7rem;">Sábado<br><span
+                style="color:var(--gold)">07:30 – 20:00</span></li>
+            <li style="color:rgba(255,255,255,.4);font-size:.85rem;">Domingo<br><span style="color:var(--gold)">08:00 –
+                13:00</span></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <div class="contact-item"><i class="fa fa-location-dot"></i><span>Rua da Covina, 4<br>2430-288
+              Marinha Grande</span></div>
+          <div class="contact-item"><i class="fa fa-phone"></i><a href="tel:+351244569839">+351 244 569
+              839</a></div>
+          <div class="contact-item"><i class="fa fa-clock"></i><span>Aberto hoje até às 20:00</span></div>
+        </div>
+      </div>
+
       <div class="footer-bottom">
         <span>© 2026 Pão Caseiro, Lda. Todos os direitos reservados.</span>
-        <a href="index.html"><i class="fa fa-arrow-left"></i> Voltar ao início</a>
+        <span>Feito com <i class="fa fa-heart" style="color:var(--gold)"></i> pela tradição portuguesa</span>
       </div>
     </div>
   </footer>
 
   <script>
-    function openMobileNav()  { document.getElementById('mobileNav').classList.add('open'); }
+    function openMobileNav() { document.getElementById('mobileNav').classList.add('open'); }
     function closeMobileNav() { document.getElementById('mobileNav').classList.remove('open'); }
 
     function handleSubmit(e) {
@@ -267,4 +339,5 @@
     }
   </script>
 </body>
+
 </html>
